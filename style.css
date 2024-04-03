@@ -1,0 +1,60 @@
+header {
+  background-color: #e24141;
+  text-align: center;
+  padding: 0.1%;
+  font-size: small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  max-width: 800px; /* Set max width for container */
+  margin: 0 auto; /* Center container horizontally */
+}
+
+.text {
+  flex: 1; /* Allow text to grow */
+  padding: 20px; /* Add padding */
+}
+
+.image {
+  flex: 1; /* Allow image to grow */
+  /* Add padding */
+}
+
+.image img {
+  width: 113%; /* Ensure image doesn't overflow container */
+  height: 338px; /* Maintain aspect ratio */
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding to control button size */
+  background-color: #e24141; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline from link */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Button text size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.button:hover {
+  background-color: #e24141; /* Change button background color on hover */
+}

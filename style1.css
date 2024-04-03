@@ -1,0 +1,19 @@
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#img1 {
+  width: 100px;
+  margin: 10px;
+}
+#img2 {
+  width: 100px;
+  margin: 10px;
+}
+#img3 {
+  width: 100px;
+  margin: 10px;
+}
